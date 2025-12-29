@@ -82,7 +82,7 @@ const Home = () => {
       <nav className={`sticky top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'glass-nav py-3 shadow-sm' : 'bg-white py-5'}`}>
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <div className="w-10 h-10 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-lg flex items-center justify-center text-white shadow-lg shadow-teal-500/20">
+            <div className="w-10 h-10 bg-linear-to-br from-teal-500 to-cyan-600 rounded-lg flex items-center justify-center text-white shadow-lg shadow-teal-500/20">
               <Activity size={24} />
             </div>
             <span className="text-2xl font-bold tracking-tight text-slate-900">
@@ -145,7 +145,7 @@ const Home = () => {
             
             <h1 className="text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 leading-[1.15] mb-6">
               Modern Healthcare <br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-cyan-600">Focused on You.</span>
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-teal-600 to-cyan-600">Focused on You.</span>
             </h1>
             
             <p className="text-lg text-slate-600 leading-relaxed mb-8">
