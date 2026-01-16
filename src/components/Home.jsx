@@ -144,7 +144,7 @@ const Home = () => {
             </div>
             
             <h1 className="text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 leading-[1.15] mb-6">
-              Modern Healthcare <br/>
+            Trusted Clinic Care You Can Rely On<br/>
               <span className="text-transparent bg-clip-text bg-linear-to-r from-teal-600 to-cyan-600">Focused on You.</span>
             </h1>
             
@@ -154,10 +154,10 @@ const Home = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="px-8 py-4 rounded-full bg-teal-600 text-white font-bold hover:bg-teal-700 transition-all shadow-xl shadow-teal-600/20 flex items-center justify-center gap-2">
-                Find a Doctor <ChevronRight size={18} />
+              📞 Book Appointment <ChevronRight size={18} />
               </button>
               <button className="px-8 py-4 rounded-full bg-white border border-slate-200 text-slate-700 font-bold hover:border-teal-200 hover:bg-teal-50 transition-all">
-                Our Departments
+              Clinic Services
               </button>
             </div>
 
